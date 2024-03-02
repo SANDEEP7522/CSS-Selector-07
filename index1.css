@@ -1,0 +1,45 @@
+
+
+/* TAsk B */
+
+/* ul a{
+    color: red;
+    text-decoration: none;
+}
+ul{
+    color: green;
+}
+p{
+    color: #ff0000;
+}
+h2{
+    color: white;
+    background-color: black;
+} */
+  
+/* Task C */
+/* 
+ a[href]{
+    color: #ff0000;
+    text-decoration: none;
+}
+a[class="active"]{
+       color: #abcdab;
+       font-style: italic;    
+}
+[target="_self"]{
+    background-color: #ffaa;
+} */
+
+/* Task D */
+
+p:last-child::after{
+    content: "...";
+}
+li::marker{
+    color: #bbcc;
+}
+p:nth-child(even)::first-letter{
+    color: #00ff00;
+    font-size: 30px;
+}
